@@ -24,6 +24,7 @@ void loop() {
   if (isObjectDetected()) {
     myServo.write(servoActivePosition);
     Serial.println("Object detected! Servo activated.");
+    delay(3000);
   } else {
     myServo.write(servoRestPosition);
     Serial.println("No object detected. Servo at rest.");
