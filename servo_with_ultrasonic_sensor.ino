@@ -6,7 +6,7 @@ const int echoPin = 10;
 const int servoPin = 11;
 
 // Constants
-const int detectionThreshold = 50; // Distance in cm to trigger the servo
+const int detectionThreshold = 10; // Distance in cm to trigger the servo
 const int servoRestPosition = 0;
 const int servoActivePosition = 90;
 
